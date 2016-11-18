@@ -1,0 +1,8 @@
+make: execute.c
+	gcc execute.c
+
+run: compile
+	./a.out
+
+clean:
+	rm *.c~
